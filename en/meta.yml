@@ -1,0 +1,10 @@
+title: Add the MicroPython firmware
+hero_image: images/banner.png
+description: add-micropython-firmware description
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-01-24"
+steps:
+  - title: Add the MicroPython firmware
+
