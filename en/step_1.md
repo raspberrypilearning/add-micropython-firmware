@@ -1,59 +1,76 @@
-## Introduction
+## Add the MicroPython firmware
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+If you have never used MicroPython on your Raspberry Pi Pico, you will need to add the MicroPython firmware. 
 
-### What you will make
+--- task ---
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+Find the BOOTSEL button on your Raspberry Pi Pico. 
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+![BOOTSEL button](images/Pico-bootsel.png)
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+Press the BOOTSEL button and hold it while you connect the other end of the micro USB cable to your computer. A Raspberry Pi is shown in the image below, but the same applies to any computer.
+
+![USB cable plugged into a Raspberry Pi](images/Pico-Raspberry-Pi-4-Plug.png)
+
+This puts your Raspberry Pi Pico into USB mass storage device mode. 
+
+--- /task ---
+
+--- task ---
+
+In the bottom right-hand corner of the Thonny window, you will see the version of Python that you are currently using. 
+
+![Status bar version](images/thonny-status-bar-version.png)
+
+Click on the Python version and choose 'MicroPython (Raspberry Pi Pico)':
+
+![Select MicroPython from the menu](images/thonny-micropython-pico-menu.png)
+
+If you don't see this option, then check that you have plugged in your Raspberry Pi Pico. 
+
+--- /task ---
+
+--- task ---
+
+A dialog box will pop up to install the latest version of the MicroPython firmware on your Raspberry Pi Pico. 
+
+Click the **Install** button to copy the firmware to your Raspberry Pi Pico. 
+
+![Firmware install](images/thonny-install-micropython-pico.png)
+
+Wait for the installation to complete and click **Close**.
+
+--- /task ---
+
 
 --- collapse ---
+
+--- 
+
+title: Firmware installation menu
+
 ---
-title: What you will need
----
-### Hardware
 
-+ A computer or tablet capable of running Scratch 3
+You can also access the firmware installation menu if you click on 'MicroPython (Raspberry Pi Pico)' in the status bar and choose 'Configure interpreter ...'.
 
-### Software
+![Configure interpreter menu](images/thonny-configure-interpreter.png)
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+The interpreter settings will open.
 
-### Downloads
+![Configure interpreter settings](images/thonny-interpreter-settings.png)
 
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
+Click on **Install or update firmware**. 
+
+You will be prompted to plug in your Raspberry Pi Pico while you hold the BOOTSEL button. 
+
+![Hold BOOTSEL button and plug in](images/thonny-bootsel.png)
+
+Then you can click **Install**. 
+
+![Install firmware](images/thonny-firmware-install.png)
+
+Wait for the installation to complete and click **Close**.
 
 --- /collapse ---
 
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+You don't need to update the firmware every time you use your Raspberry Pi Pico. Next time, you can just plug it into your computer without pressing the BOOTSEL button.
