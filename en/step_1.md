@@ -42,14 +42,9 @@ Wait for the installation to complete and click **Close**.
 
 --- /task ---
 
+--- task ---
 
---- collapse ---
-
---- 
-
-title: Firmware installation menu
-
----
+Firmware installation menu
 
 You can also access the firmware installation menu if you click on 'MicroPython (Raspberry Pi Pico)' in the status bar and choose 'Configure interpreter ...'.
 
@@ -71,6 +66,6 @@ Then you can click **Install**.
 
 Wait for the installation to complete and click **Close**.
 
---- /collapse ---
+--- /task ---
 
 You don't need to update the firmware every time you use your Raspberry Pi Pico. Next time, you can just plug it into your computer without pressing the BOOTSEL button.
